@@ -1,0 +1,357 @@
+html, body{
+ font-size: 100%;
+ background: #fff;
+font-family: 'Open Sans', sans-serif;
+}
+body a,.menu ul li a,.album  {
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+a:hover{
+ text-decoration:none;
+}
+input[type="button"],input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;			   
+}	
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+/*header*/
+.menubar
+{
+	margin-bottom: 0px !important;
+	background-color: #333;
+	border: none !important;
+	border-radius: 0px !important;
+	z-index: 2;
+}
+.index
+{
+	padding: 24px 15px !important;
+	display: inline-block;
+	height: auto !important;
+	font-family: 'Pacifico', cursive;
+	color: #fff !important;
+	font-size: 24px !important;	
+}
+
+.navstyle li a
+{
+	padding: 24px 15px !important;
+	color: #fff;
+	font-family: "Source Sans Pro",sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.navstyle li a:hover, .navstyle li a:focus, .navstyle li a.active
+{
+	background-color: #33a29d !important;
+	color: #fff;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: 0px !important;
+}
+/*--faviretes-section--*/
+h3.tittle {
+  color: #553A99;
+  font-size: 3em;
+  padding: 0em 0em;
+  font-family: 'Jockey One', sans-serif;
+  margin-bottom: 0.9em;
+}
+h3.tittle.two{
+ padding: 0em 0.5em;
+}
+.faviretes-section {
+  padding: 4em 0;
+}
+.f-grid {
+  margin-bottom: 2em;
+}
+.faviretes-left {
+  float: left;
+}
+.f-img img {
+  width: 100%;
+}
+.f-text a h3 {
+  font-size: 1.9em;
+  color: #D52685;
+  font-weight: 400;
+  font-family: 'Jockey One', sans-serif;
+  }
+.f-text p {
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.7em;
+  margin: 0.6em 0;
+}
+span.item_price h6 {
+   font-weight: 700;
+  color: #553a99;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  display: block;
+}
+a.add {
+  background:#ff1791;
+  width: 30%;
+  padding: 0.7em 1em;
+  color: #fff;
+  font-size:0.95em;
+  text-transform:uppercase;
+}
+a.add:hover{
+ background:#553a99;
+}
+/*--*/
+.button{
+	background:#D52685;
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	color: #FFF;
+	outline: none;
+	text-transform: uppercase;
+	display: block;
+	margin: 10px 0 0 0;
+	font-size: 0.875em;
+}
+.button:hover{
+	  background-color: #553A99;
+	  color:#fff;
+}
+
+/*--responsive--*/
+@media (min-width: 200px) and (max-width: 767px) {
+.navstyle{
+	width: 100% !important;
+}
+.navstyle li a {
+    padding: 10px 15px !important;
+    text-align: center;
+    display: block;
+}
+}
+@media (max-width:1280px){
+	.banner.two {
+      background: url(../images/banner2.jpg)no-repeat;
+      min-height: 190px;
+	  background-size: cover;
+	  -o-background-size: cover;
+	  -moz-background-size: cover;
+	  -ms-background-size: cover;
+	  -webkit-background-size: cover;
+  }
+}
+@media (max-width:1024px){
+	.faviretes-section,.albums,.albums,.typrography,.content-grids,.contact,.artist-section {
+	  padding: 3em 0;
+	}
+  a.add {
+	  padding: 0.7em 0.8em;
+	  font-size: 0.85em;
+	}
+	span.item_price h6 {
+	  font-size: 1.3em;
+	  padding-bottom: 0.7em;
+	  }
+	  .f-img {
+	  padding-left: 0;
+	  margin-top: 0.5em;
+	}
+	.f-text {
+	  padding: 0;
+	}
+	.arrow-img {
+	  padding: 0em 0em 0 1em;
+	}
+	.img-arrow {
+	  padding: 0 0 0 3.3em;
+	}
+	.f-grid {
+	  margin-bottom: 2.5em;
+	}
+}
+@media (max-width:768px){
+   figure.effect-bubba figcaption::before, figure.effect-bubba figcaption::after {
+	  position: absolute;
+	  top: 10px;
+	  right: 10px;
+	  bottom: 10px;
+	  left: 9px;
+	}
+	.faviretes-left {
+	  float: none;
+	  width: 100%;
+	}
+	.f-img {
+	  float: left;
+	  width: 37%;
+	  padding: 0;
+	}
+	.f-text {
+	  float: right;
+	  width: 60%;
+	  padding: 0;
+	}
+	h3.tittle.two {
+	  padding: 0em 0.3em;
+	}
+	h3.tittle {
+    font-size: 3em;
+    margin-bottom: 0.6em;
+  }
+  a.add {
+  width: 30%;
+  padding: 0.5em 1em;
+  }
+  .menu-chain {
+	  width: 50%;
+	  margin: 1em 0 0 0;
+  }
+  .banner.two {
+	  background: url(../images/banner2.jpg)no-repeat;
+	  min-height: 138px;
+	  background-size: cover;
+	  -o-background-size: cover;
+	  -moz-background-size: cover;
+	  -ms-background-size: cover;
+	  -webkit-background-size: cover;
+  }
+	.f-grid.two {
+	  margin: 2em 0;
+	}
+	.arrow-img {
+	  padding: 0em 0em 0 34em;
+	}
+	.img-arrow {
+	   padding: 0 0 0 36.2em;
+	}
+  .f-text a h3 {
+  font-size: 1.8em;
+  }
+  .top-menu ul li {
+	  margin-right: 0;
+	}
+}
+
+@media (max-width:640px){
+	h3.tittle {
+	  font-size: 2.6em;
+	  margin-bottom: 0.6em;
+	}
+	.header-top {
+	  padding: 1.5em 0;
+	}
+	.header-right {
+	  margin-top: 0.3em;
+	}
+}
+
+@media (max-width:480px){
+	.faviretes-section, .albums, .albums, .typrography, .content-grids, .contact, .artist-section {
+	  padding: 2em 0;
+	}
+
+	.logo a h1 {
+	  font-size: 2.3em;
+	  }
+	  .banner.two {
+	  background: url(../images/banner2.jpg)no-repeat;
+	  min-height: 103px;
+	  background-size: cover;
+	  -o-background-size: cover;
+	  -moz-background-size: cover;
+	  -ms-background-size: cover;
+	  -webkit-background-size: cover;
+	}
+	.f-img {
+	  float: left;
+	  width: 100%;
+	  padding: 0;
+	}
+	.f-text {
+	  float: right;
+	  width: 100%;
+	  padding: 0;
+	  margin-top: 1em;
+	}
+	h3.tittle.two {
+	  padding: 0em 0em;
+	}
+	.faviretes-left {
+	  padding: 0;
+	}
+	h3.tittle {
+   font-size: 2.3em;
+  }
+}
+
+@media (max-width:320px){
+	.header-top {
+	  padding: 1em 0;
+	}
+	.logo a h1 {
+	  font-size: 2em;
+	}
+	.faviretes-section, .albums, .albums, .typrography, .content-grids, .contact, .artist-section {
+	  padding: 1.2em 0;
+	}
+	h3.tittle {
+	  font-size: 2em;
+	  margin-bottom: 0.35em;
+	}
+	.f-text a h3 {
+	  font-size: 1.5em;
+	}
+	.f-text p {
+  font-size: 0.83em;
+  }
+  span.item_price h6 {
+  font-size: 1.3em;
+  }
+  a.simpleCart_empty {
+  font-size: 0.8em;
+  }
+  a.add {
+	  width: 30%;
+	  padding: 0.5em 0.5em;
+	  font-size: 0.9em;
+	}
+	a.view-all {
+	  padding: 0.5em 0em;
+	  font-size: 1.5em;
+	  }
+	  h3.cate {
+	  padding: 0.9em;
+	  font-size: 1em;
+	}
+  .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	  border-top: none !important;
+	  padding: 0 5px!important;
+	}
+}
